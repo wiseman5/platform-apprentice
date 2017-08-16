@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="platform-apprentice-api" />
+        <module name="platform-apprentice-api-impl" />
+        <module name="platform-apprentice-webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="id" target="1.5" />
+      <module name="id-webapp-exec" target="1.5" />
+      <module name="platform-apprentice-api" target="1.5" />
+      <module name="platform-apprentice-api-impl" target="1.5" />
+      <module name="platform-apprentice-webapp" target="1.5" />
+      <module name="platform-apprentice-webapp-it" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
